@@ -103,11 +103,17 @@ Database: Local SQLite file (app.db) created automatically in backend folder
 
 🧩 API Endpoints Overview
 Method	->    Endpoint	->  Description
+
 POST    ->	/api/auth/register	 ->   Register new user
+
 POST    ->  	/api/auth/login	 ->   Login existing user
+
 GET ->	/api/projects	->Get all user projects
+
 ->	/api/projects	->  Create a new project
+
 PUT	   ->     /api/projects/{id}	->  Update a project
+
 DELETE  ->	/api/projects/{id}	    ->  Delete a project
 GET	    ->  /api/projects/{projectId}/tasks ->  	Get all tasks for a project
 POST    ->  	/api/projects/{projectId}/tasks ->	Create new task
